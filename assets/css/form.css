@@ -1,0 +1,88 @@
+body{
+	background: rgb(38,38,38); /*#cccccc*/
+	font-family: verdana ;
+}
+
+#page{
+	background-color: #fff;
+	width: 1000px;
+	height: 400px;
+	padding: auto ;
+	margin: 130px auto ;
+	border-radius: 5px ; 
+	/*box-shadow: 5px 5px 5px #444444;*/
+
+}
+
+img{ 
+	float: right;
+	padding-top: 2px;
+	padding-right: 0px;
+	width: 170px; height:80px;
+
+}
+
+fieldset{
+	width : 850px;
+	margin: auto ;
+}
+
+.point{
+border-width: medium medium 1px;
+border-radius:4px;
+height : 20px;
+border-style: none none dashed;
+border-color: -moz-use-text-color -moz-use-text-color #989895;
+background: none repeat scroll 0% 0% transparent;
+}
+
+
+h5{
+	padding: 20px 0px 0px 20px;
+	font-weight: bold;
+	font-size: 1.20em;
+	color: #32331D;
+}
+
+#no{
+	margin: -45px 0px 20px 265px; 
+}
+
+input{
+	text-align: center;
+	font-weight:bold;
+}
+
+input:focus {
+ outline:none;
+ }
+
+#tab1{
+	margin-left:10px;  
+}
+
+#tab2{
+	margin:10px 0px 10px 35px;  
+}
+
+#date{
+	font-weight: bold;
+	text-align: center;
+}
+
+#pied{
+	float: right;
+	padding: 40px 20px 0px 0px;
+}
+
+input[type=submit]{
+	height: 35px;
+	color: red;
+}
+
+input[type=reset]{
+	height: 35px;
+	color: red;
+	padding-right: 10px;
+
+}
